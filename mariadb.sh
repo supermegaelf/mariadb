@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "Enter password for MySQL root user:"
+echo -n "Enter password for MySQL root user: "
 read -s root_password
-echo "Enter password for Marzban database user:"
+echo -n "Enter password for Marzban database user: "
 read -s marzban_password
 
 echo "Adding current user to docker group..."
