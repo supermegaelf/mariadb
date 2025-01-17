@@ -5,6 +5,7 @@ read -s root_password
 echo
 echo -n "Enter password for Marzban database user: "
 read -s marzban_password
+echo
 
 echo "Adding current user to docker group..."
 usermod -aG docker $(whoami)
