@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo -n "Enter password for MySQL root user: "
+echo -n "Root DB password: "
 read -s root_password
 echo
-echo -n "Enter password for Marzban database user: "
+echo -n "Marzban DB password: "
 read -s marzban_password
 echo
 
