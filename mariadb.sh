@@ -2,6 +2,7 @@
 
 echo -n "Enter password for MySQL root user: "
 read -s root_password
+echo
 echo -n "Enter password for Marzban database user: "
 read -s marzban_password
 
