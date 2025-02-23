@@ -1,10 +1,10 @@
 #!/bin/bash
 
 echo -n "Root DB password: "
-read -s root_password
+read root_password
 echo
 echo -n "Marzban DB password: "
-read -s marzban_password
+read marzban_password
 echo
 
 echo "Adding current user to docker group..."
