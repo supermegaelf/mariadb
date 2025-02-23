@@ -2,10 +2,9 @@
 
 echo -n "Root DB password: "
 read root_password
-echo
+
 echo -n "Marzban DB password: "
 read marzban_password
-echo
 
 echo "Adding current user to docker group..."
 usermod -aG docker $(whoami)
